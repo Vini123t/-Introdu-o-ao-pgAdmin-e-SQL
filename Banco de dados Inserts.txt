@@ -1,0 +1,36 @@
+Inserir Clientes
+INSERT INTO CLIENTE (NOME, EMAIL, TELEFONE) VALUES
+('João Silva', 'joao.silva@email.com', '123456789'),
+('Maria Oliveira', 'maria.oliveira@email.com', '987654321'),
+('Carlos Santos', 'carlos.santos@email.com', '555555555'),
+('Ana Costa', 'ana.costa@email.com', '333333333'),
+('Fernanda Pereira', 'fernanda.pereira@email.com', '444444444');
+
+Inserir Pets
+INSERT INTO PET (ID_CLIENTE, NOME_PET, ESPECIE, RACA, DATA_NASCIMENTO) VALUES
+(1, 'Rex', 'Cachorro', 'Labrador', '2018-04-10'),
+(1, 'Mimi', 'Gato', 'Siamês', '2019-08-15'),
+(2, 'Bolinha', 'Cachorro', 'Poodle', '2020-11-05'),
+(3, 'Fiona', 'Gato', 'Persa', '2017-01-20'),
+(4, 'Lucky', 'Cachorro', 'Bulldog', '2021-03-30');
+
+Inserir Serviços
+INSERT INTO SERVICO (NOME_SERVICO, DESCRICAO, PRECO) VALUES
+('Banho e Tosa', 'Serviço completo de banho e tosa para pets.', 50.00),
+('Consulta Veterinária', 'Consulta médica para avaliação geral de saúde.', 80.00),
+('Vacinação', 'Aplicação de vacinas necessárias para pets.', 40.00),
+('Exame de Sangue', 'Exame completo de sangue para análise de saúde.', 120.00),
+('Acompanhamento Pós-Cirúrgico', 'Acompanhamento veterinário após procedimentos cirúrgicos.', 100.00);
+
+Inserir Agendamentos
+INSERT INTO AGENDAMENTO (ID_CLIENTE, ID_PET, ID_SERVICO, DATA_AGENDAMENTO, HORA) VALUES
+(1, 1, 1, '2024-11-10', '10:00'),
+(1, 2, 2, '2024-11-12', '14:00'),
+(2, 3, 3, '2024-11-15', '11:00'),
+(3, 4, 1, '2024-11-17', '09:00'),
+(4, 5, 2, '2024-11-20', '13:00'),
+(2, 3, 5, '2024-11-22', '16:00'),
+(3, 4, 4, '2024-11-25', '08:30'),
+(1, 1, 4, '2024-11-27', '15:00'),
+(5, 5, 2, '2024-12-01', '10:00'),
+(4, 5, 3, '2024-12-03', '12:30');
