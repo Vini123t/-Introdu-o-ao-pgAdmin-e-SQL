@@ -5,6 +5,10 @@ Link - Forms Atividade
 https://forms.gle/ihvnGJEuLYB4shna7
 
 
+Link - Postgresql
+https://www.postgresql.org/download/
+
+
 
 integrates  do Grupo 
 Vinicius Almeida
